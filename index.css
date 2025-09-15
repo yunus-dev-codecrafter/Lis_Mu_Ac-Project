@@ -178,7 +178,12 @@ h2 {
 }
 
 .card-btn {
-  background-color: #896c6c;
+  background-image: url(Quran.jfif);
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   padding: 1rem;
   border-radius: 1px;
   margin-right: 10px;
