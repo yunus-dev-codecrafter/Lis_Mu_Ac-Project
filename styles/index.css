@@ -5,11 +5,12 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: sans-serif;
   padding-top: 6rem;
   min-width: 100vw;
   min-height: 100vh;
-  background-color: F5FAE1;
+  background-color: #f5fae1;
 }
 
 /* !navBar Settings */
@@ -177,8 +178,7 @@ h2 {
   color: #5a4747;
 }
 
-.card-btn {
-  background-image: url(Quran.jfif);
+[class^="card-btn"] {
   height: 20px;
   width: 20px;
   background-repeat: no-repeat;
@@ -189,6 +189,21 @@ h2 {
   margin-right: 10px;
 }
 
+.card-btn-quran {
+  background-image: url(Quran.jfif);
+}
+
+.card-btn-arabic {
+  background-image: url(Learn-Quran-and-Arabic-Online-and-Islamic-Studies-1-1024x1024.webp);
+}
+
+.card-btn-tajweed {
+  background-image: url(tajweed-online.jpg);
+}
+
+.card-btn-hifz {
+  background-image: url(hifz-quran-for-adults-1024x679.webp);
+}
 .testimonies {
   max-width: 80%;
   margin: auto;

@@ -1,5 +1,6 @@
 const students = {
   "yunusabdulhameed1@gmail.com": "Students/Yunus.html",
+  "auabdullahi67@gmail.com": "Students/Abubakar.html",
 };
 
 function login(event) {
@@ -8,6 +9,7 @@ function login(event) {
   const email = document.getElementById("email").value.trim();
   const students = {
     "yunusabdulhameed1@gmail.com": "Students/Yunus.html",
+    "auabdullahi67@gmail.com": "Students/Abubakar.html",
   };
 
   if (students[email]) {

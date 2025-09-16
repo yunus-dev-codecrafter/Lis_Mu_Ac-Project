@@ -5,6 +5,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: sans-serif;
   padding-top: 6rem;
   min-width: 100vw;
@@ -57,4 +58,9 @@ input {
   padding: 0.8rem 2rem;
   border: none;
   outline: none;
+}
+
+#message {
+  color: red;
+  font-style: italic;
 }
