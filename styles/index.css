@@ -62,7 +62,7 @@ body {
 .hero {
   color: #896c6c;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
