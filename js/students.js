@@ -7,7 +7,7 @@ function login(event) {
 
   const email = document.getElementById("email").value.trim();
   const students = {
-    "yunusabdulhameed1@gmail.com": "students/Yunus.html",
+    "yunusabdulhameed1@gmail.com": "Students/Yunus.html",
   };
 
   if (students[email]) {
