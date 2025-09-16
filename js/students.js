@@ -3,7 +3,7 @@ const students = {
 };
 
 function login(event) {
-  event.preventDefault(); // prevent page reload
+  event.preventDefault();
 
   const email = document.getElementById("email").value.trim();
   const students = {
@@ -11,10 +11,8 @@ function login(event) {
   };
 
   if (students[email]) {
-    // Redirect to their dashboard
     window.location.href = students[email];
   } else {
-    // Show error
     document.getElementById("message").textContent = "Email not registered.";
   }
 }
