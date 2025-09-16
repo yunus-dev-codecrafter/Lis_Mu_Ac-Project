@@ -8,9 +8,12 @@ const students = {
   "bashirtoffa30@gmail.com": "Students/Bashir.html",
   "layyatusalisu4949@gmail.com": "Students/Layytu.html",
   "khaadijaabdullah@gmail.com": "Students/Khadija.html",
-  "fadilakashim01@gmail.com": "Students/Fadila.hmtl",
+  "fadilakashim01@gmail.com": "Students/Fadila.html",
   "nifu2005@gmail.com": "Students/Hanifa.html",
   "faizaismailzoaka@gmail.com": "Students/Faiza.html",
+  "3013378@gmail.com": "Students/Aisha.html",
+  "teemahb1964@gmail.com": "Students/Kashim.html",
+  "abduriruwai@yahoo.com": "Students/Abdu.html",
 };
 
 function login(event) {
@@ -30,6 +33,9 @@ function login(event) {
     "fadilakashim01@gmail.com": "Students/Fadila.hmtl",
     "nifu2005@gmail.com": "Students/Hanifa.html",
     "faizaismailzoaka@gmail.com": "Students/Faiza.html",
+    "3013378@gmail.com": "Students/Aisha.html",
+    "abduriruwai@yahoo.com": "Students/Abdu.html",
+    "teemahb1964@gmail.com": "Students/Kashim.html",
   };
 
   if (students[email]) {
