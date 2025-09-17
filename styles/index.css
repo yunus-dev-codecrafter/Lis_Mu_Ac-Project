@@ -418,6 +418,7 @@ button a {
 }
 
 .our__programs {
+  font-family: sans-serif;
   padding: 1.5rem;
   max-width: 80%;
   margin: auto;

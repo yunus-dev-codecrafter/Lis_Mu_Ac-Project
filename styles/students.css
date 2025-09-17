@@ -83,3 +83,8 @@ input {
   text-align: center;
   font-family: monospace;
 }
+
+.linkToHome {
+  text-decoration: none;
+  color: #896c6c;
+}
