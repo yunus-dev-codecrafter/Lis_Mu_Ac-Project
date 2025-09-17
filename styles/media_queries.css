@@ -69,17 +69,7 @@
     margin-bottom: 1.2rem;
   }
 
-  button,
-  .btn-reg {
-    padding: 0.8rem 1.5rem;
-    font-size: 0.8rem;
-  }
-
-  .btn-reg a {
-    font-size: 0.8rem;
-  }
-
-  .call_to_action {
+  */ .call_to_action {
     font-size: 1.5rem;
   }
 
@@ -160,16 +150,6 @@
 
   .call_to_action {
     font-size: 1.2rem;
-  }
-
-  button,
-  .btn-reg {
-    padding: 0.7rem 1.4rem;
-    font-size: 0.7rem;
-  }
-
-  .btn-reg a {
-    font-size: 0.7rem;
   }
 }
 
@@ -253,16 +233,6 @@
 
   h2 {
     font-size: 1.2rem;
-  }
-
-  button,
-  .btn-reg {
-    padding: 0.6rem 1.5rem;
-    font-size: 0.6rem;
-  }
-
-  .btn-reg a {
-    font-size: 0.6rem;
   }
 
   body {
