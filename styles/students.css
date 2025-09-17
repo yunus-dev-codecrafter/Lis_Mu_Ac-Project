@@ -25,7 +25,7 @@ body {
   border: none;
   border-radius: 1rem;
   background: linear-gradient(to bottom, #f9f7f3, #f4f1eb);
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +53,7 @@ button {
   border-radius: 10px;
   background-color: #e5beb5;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 
 button:active {
@@ -69,10 +70,16 @@ input {
 #message {
   color: red;
   font-style: italic;
+  margin-bottom: 1rem;
 }
 
 .logo {
   width: 200px;
   height: 200px;
   margin-bottom: 1rem;
+}
+
+.copyright {
+  text-align: center;
+  font-family: monospace;
 }
