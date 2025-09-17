@@ -219,9 +219,20 @@
   .navbar {
     padding: 0.8rem 1rem;
   }
+
+  /* body {
+    position: relative;
+  } */
+
+  /* main {
+    position: absolute;
+    z-index: 1;
+  } */
+
   .hero {
     padding: 1rem;
   }
+
   .hero h2 {
     font-size: 1.2rem;
     line-height: 2.2rem;
@@ -235,12 +246,8 @@
     font-size: 1.2rem;
   }
 
-  body {
-    position: relative;
-    padding-top: 5rem;
-  }
-
   .navbar__menu {
+    z-index: -1;
     min-width: 80%;
     min-height: 90vh;
     padding: 1rem 1.1rem;
@@ -258,7 +265,7 @@
   }
 
   .hidden {
-    opacity: 0%;
+    display: none;
   }
 
   .navbar__logo {
