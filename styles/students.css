@@ -5,6 +5,7 @@
 }
 
 body {
+  padding: 0 1.3rem;
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -33,6 +34,7 @@ body {
 
 .instruction {
   color: #896c6c;
+  text-align: center;
 }
 
 .details,
