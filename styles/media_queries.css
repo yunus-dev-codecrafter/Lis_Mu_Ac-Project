@@ -5,6 +5,9 @@
   .navbar__icons {
     display: none;
   }
+  .copyright {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 1183px) {
