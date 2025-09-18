@@ -164,12 +164,22 @@ h2 {
   color: #5a4747;
 }
 
+.card a {
+  text-decoration: none;
+  color: #896c6c;
+}
+
+.flex-a {
+  display: flex;
+  align-items: center;
+}
+
 [class^="card-btn"] {
   height: 20px;
   width: 20px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   padding: 1rem;
   border-radius: 1px;
   margin-right: 10px;
@@ -261,4 +271,9 @@ footer {
   align-items: center;
   margin-bottom: 2rem;
   text-decoration: none;
+}
+
+.copyright {
+  font-family: monospace;
+  font-size: 0.8rem;
 }
