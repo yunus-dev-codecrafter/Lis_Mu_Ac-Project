@@ -42,18 +42,18 @@
   }
   footer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: ;
     gap: 10px;
   }
 
-  .study {
-    grid-column: 1 / span 2;
+  /* .study {
+    grid-column: 2 / span 2;
   }
 
-  .promise {
-    grid-column: 3 / span 2;
-  }
+  .offer {
+    grid-column: 1 / span 2;
+  } */
 
   .info-holder {
     display: flex;
