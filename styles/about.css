@@ -1,34 +1,11 @@
-/* !navBar Settings
-.navbar {
-  z-index: 2;
-  left: 0;
-  top: 0;
-  max-width: 100%;
-
-;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-.bi {
-  font-weight: 400;
-  font-size: 1rem;
-  cursor: pointer;
-} */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,7 +14,7 @@ body {
 }
 
 section {
-  height: 100vh;
+  min-height: 50vh;
 }
 
 header {
@@ -55,16 +32,17 @@ footer {
 header {
   position: sticky;
   top: 0;
-  font-size: 2rem;
-  z-index: -2;
+  font-size: 1.5rem;
+  /* z-index: -2; */
 }
 
 footer {
+  padding: 1rem;
   color: #eee6ca;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 0.5rem;
+  gap: 0.5rem; */
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -79,13 +57,27 @@ a:visited {
   color: white;
 }
 
-img {
-  padding: 2rem;
-  z-index: -1;
+.img-items {
+  padding: 0.5rem;
+  z-index: 1;
   position: fixed;
   top: 15rem;
-  left: 0;
+  right: 0;
   background-color: #896c6c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 30%;
+}
+
+.info-holder {
+  padding: 1.5rem;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -93,7 +85,7 @@ footer {
   background-color: #896c6c;
 }
 
-.footer_div {
+/* .footer_div {
   max-width: 80%;
   margin: auto;
   padding: 1rem;
@@ -103,7 +95,7 @@ footer {
   align-items: center;
 
   color: white;
-}
+} */
 
 .lisanun__mubeen__text {
   font-family: "Dancing Script", cursive;
@@ -121,7 +113,6 @@ footer {
   padding: 1rem 0.5rem;
   border-radius: 10px;
   color: #fae1dd;
-  font-weight: 400;
   font-family: sans-serif;
 }
 
@@ -134,10 +125,9 @@ footer {
 .navbar__menu a {
   text-decoration: none;
   color: #fae1dd;
-  font-size: 18px;
+  font-size: 0.9rem;
   border-radius: 10px;
   padding: 1rem 2rem;
-  font-weight: 400;
   margin: 0 1rem;
 }
 
@@ -177,8 +167,9 @@ footer {
 }
 
 .navbar__menu {
+  z-index: 2;
   min-width: 80%;
-  min-height: 90vh;
+  min-height: 40vh;
   padding: 1rem 1.1rem;
   position: absolute;
   top: 3rem;
@@ -187,4 +178,15 @@ footer {
   flex-direction: column;
   align-items: start;
   background-color: #896c6cf8;
+}
+
+.about-info {
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.info-holder img {
+  height: 250px;
+  width: 100%;
 }
