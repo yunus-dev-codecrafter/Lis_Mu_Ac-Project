@@ -192,3 +192,42 @@ footer {
   height: 250px;
   width: 100%;
 }
+
+.disc-paragraph {
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.disc-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.disc-buttons button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background-color: #e5beb5;
+  color: #896c6c;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+#discover {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  min-height: 35vh;
+  background-color: #f5fae1;
+  color: #896c6c;
+}
+
+.disc-h2 {
+  background-color: #fae1dd;
+  padding: 1rem;
+  border-radius: 10px;
+}

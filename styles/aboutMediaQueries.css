@@ -8,7 +8,8 @@
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: auto;
   }
-  .about-info {
+  .about-info,
+  .disc-paragraph {
     font-size: 2rem;
   }
 }
@@ -37,7 +38,8 @@
     flex-direction: column;
     padding: 1rem;
   }
-  .about-info {
+  .about-info,
+  .disc-paragraph {
     font-size: 1.7rem;
   }
 }
@@ -66,7 +68,8 @@
     flex-direction: column;
     padding: 1rem;
   }
-  .about-info {
+  .about-info,
+  .disc-paragraph {
     font-size: 0.9rem;
   }
 }
