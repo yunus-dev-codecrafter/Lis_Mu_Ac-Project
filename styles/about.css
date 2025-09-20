@@ -159,8 +159,9 @@ footer {
 }
 
 .hidden {
-  display: none;
+  /* display: none; */
   opacity: 0%;
+  pointer-events: none;
 }
 
 .navbar__icons {
@@ -183,7 +184,7 @@ footer {
 
 .about-info {
   padding: 1rem 2rem;
-  font-size: 0.9rem;
+  /* font-size: 0.9rem; */
   font-family: sans-serif;
 }
 
