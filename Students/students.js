@@ -6,3 +6,6 @@ function showDateTime() {
 
 // run once on load
 showDateTime();
+
+// update every second (optional)
+setInterval(showDateTime, 1000);
