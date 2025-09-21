@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  background-color: #856849;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #856849;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  /* max-width: 60%; */
+  background-color: #f8f2e9;
+  padding: 1rem;
+  border-radius: 20px;
+  color: #856849;
+}
+
+.name-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.time {
+  /* background-color: blue;
+  color: white; */
+  font-size: 2rem;
+}
