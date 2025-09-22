@@ -1,11 +1,16 @@
-/* @media (min-width: 1281px) and (max-width: 1441px) {
-
-} */
+@media (min-width: 1281px) and (max-width: 1441px) {
+  .heading {
+    flex-direction: row;
+  }
+}
 
 @media (min-width: 1008px) and (max-width: 1200px) {
   .time,
   h1 {
     font-size: 1.5rem;
+  }
+  .heading {
+    flex-direction: row;
   }
 }
 
@@ -13,6 +18,15 @@
   .time,
   h1 {
     font-size: 1rem;
+  }
+  .heading {
+    flex-direction: row;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .welcome-name {
+    max-width: 70%;
   }
 }
 
@@ -36,5 +50,15 @@
   }
   body {
     padding: 0.8rem;
+  }
+  .heading {
+    flex-direction: column;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .welcome-name {
+    max-width: 100%;
   }
 }

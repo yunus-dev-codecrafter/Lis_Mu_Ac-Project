@@ -1,7 +1,15 @@
 function showDateTime() {
   const now = new Date();
-  const formatted = now.toLocaleString(); // shows date + time
-  document.getElementById("dateTime").innerText = formatted;
+
+  const options = {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+  const datePart = now.toLocaleDateString(undefined, options);
+  const timePart = now.toLocaleString(); // shows date + time
+  document.getElementById("dateTime").innerText = `${datePart} - ${timePart}`;
 }
 
 // run once on load
