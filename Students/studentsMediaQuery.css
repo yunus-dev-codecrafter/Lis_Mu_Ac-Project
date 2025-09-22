@@ -28,6 +28,11 @@
   .welcome-name {
     max-width: 70%;
   }
+
+  .main-info {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -60,5 +65,20 @@
 
   .welcome-name {
     max-width: 100%;
+  }
+
+  .progress-card {
+    flex-direction: column;
+  }
+
+  .main-info {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .support {
+    grid-column: span 2;
+    min-width: 100%;
+    padding-top: 0;
   }
 }
