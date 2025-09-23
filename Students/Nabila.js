@@ -14,36 +14,98 @@ closeBtn.addEventListener("click", () => {
   displayMenu.classList.toggle("hidden");
 });
 
-// set session start and end time (24-hour format)
-const sessionStart = "09:00"; // 4:00 PM
-const sessionEnd = "10:00"; // 4:30 PM
-
 const joinBtn = document.getElementById("joinBtn");
+
+// define allowed sessions: day (0=Sunday, 1=Monday,...,6=Saturday), start, end
+const sessions = [
+  { day: 2, start: "10:00", end: "11:00" },
+  { day: 5, start: "10:00", end: "11:00" },
+];
 
 function checkSessionTime() {
   const now = new Date();
+  const currentDay = now.getDay();
   const currentTime =
     now.getHours().toString().padStart(2, "0") +
     ":" +
     now.getMinutes().toString().padStart(2, "0");
 
-  if (currentTime >= sessionStart && currentTime <= sessionEnd) {
+  let active = false;
+
+  // loop through sessions and check if one matches current time
+  for (const session of sessions) {
+    if (
+      currentDay === session.day &&
+      currentTime >= session.start &&
+      currentTime <= session.end
+    ) {
+      active = true;
+      break;
+    }
+  }
+
+  if (active) {
     joinBtn.classList.add("active");
     joinBtn.disabled = false;
+    joinBtn.textContent = "Join Class";
   } else {
     joinBtn.classList.remove("active");
     joinBtn.disabled = true;
+    joinBtn.textContent = "Not Available";
   }
 }
 
-// check every 30 seconds
+// check immediately and then every 30 seconds
 checkSessionTime();
 setInterval(checkSessionTime, 30000);
 
-// Example click handler
 joinBtn.addEventListener("click", () => {
   if (!joinBtn.disabled) {
-    alert("Joining class...");
-    // redirect to meeting link here
+    window.location.href = "https://meet.google.com/kzi-arnj-ohw";
   }
 });
+
+function showDateTime() {
+  const now = new Date();
+
+  // Long weekday + date
+  const datePart = now.toLocaleDateString(undefined, {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
+  // Time only with seconds + AM/PM
+  const timePart = now.toLocaleTimeString(undefined, {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true,
+  });
+
+  document.getElementById("dateTime").innerText = `${datePart} - ${timePart}`;
+}
+
+// Run once when page loads
+showDateTime();
+
+// Keep updating every second
+setInterval(showDateTime, 1000);
+
+//Udate Number of Pages
+let completed = 2;
+let total = 604;
+
+// Calculate percentage
+let percentage = Math.round((completed / total) * 100);
+
+// Update circle fill
+let circle = document.getElementById("circle");
+circle.style.background = `conic-gradient(#4caf50 ${percentage}%, #ddd ${percentage}% 100%)`;
+
+// Update percentage text
+document.getElementById("percent").innerText = percentage + "%";
+
+// Update completed number
+document.getElementById("completed").innerText = completed;

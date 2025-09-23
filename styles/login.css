@@ -32,6 +32,13 @@ body {
   align-items: center;
 }
 
+@media (min-width: 601px) and (max-width: 992px) {
+  .login__details {
+    min-height: 55vh;
+    min-width: 60vw;
+  }
+}
+
 .instruction {
   color: #896c6c;
   text-align: center;

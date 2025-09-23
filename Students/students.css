@@ -5,6 +5,7 @@
 }
 
 body {
+  min-height: 100vh;
   padding: 2rem;
   background-color: #fdf6ec;
   /* color: #fdf6f6; */
@@ -152,6 +153,28 @@ h2 {
   color: white;
 }
 
+.fees {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 20px;
+  background-color: #f4e3d0;
+  color: #4b3621;
+}
+
+.fees-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+h5 {
+  /* border: 1px solid black; */
+  padding: 1rem;
+}
+
 #joinBtn.active {
   background-color: green; /* active (class time) */
 }
@@ -210,4 +233,20 @@ table {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+}
+
+.calender {
+  width: 100%;
+  text-align: center;
+  padding: 1.8rem;
+  font-size: 2rem;
+
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20px;
+
+  font-family: monospace;
+  background-color: #d49355;
+  color: white;
+  font-weight: 400;
 }

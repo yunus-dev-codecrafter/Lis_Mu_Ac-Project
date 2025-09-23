@@ -12,7 +12,8 @@ const students = {
   "nifu2005@gmail.com": "Students/Hanifa.html",
   "faizaismailzoaka@gmail.com": "Students/Faiza.html",
   "3013378@gmail.com": "Students/Aisha.html",
-  "teemahb1964@gmail.com/Nabila": "Students-Nabila.html",
+  "teemahb1964@gmail.com-Nabila": "Students/Nabila.html",
+  "teemahb1964@gmail.com-Abubakar": "Students/Abubakar.html",
   "abduriruwai@yahoo.com": "Students/Abdu.html",
 };
 
@@ -36,6 +37,7 @@ function login(event) {
     "3013378@gmail.com": "Students/Aisha.html",
     "abduriruwai@yahoo.com": "Students/Abdu.html",
     "teemahb1964@gmail.com-Nabila": "Students/Nabila.html",
+    "teemahb1964@gmail.com-Abubakar": "Students/Abubakar.html",
   };
 
   if (students[email]) {

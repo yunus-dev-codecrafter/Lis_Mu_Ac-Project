@@ -26,7 +26,7 @@ showDateTime();
 // Keep updating every second
 setInterval(showDateTime, 1000);
 
-// Example: Ahmed has completed 25 surahs
+//Udate Number of Pages
 let completed = 0;
 let total = 604;
 

@@ -18,8 +18,8 @@ const joinBtn = document.getElementById("joinBtn");
 
 // define allowed sessions: day (0=Sunday, 1=Monday,...,6=Saturday), start, end
 const sessions = [
-  { day: 6, start: "10:00", end: "10:30" },
-  { day: 3, start: "09:00", end: "09:30" },
+  { day: 6, start: "16:30", end: "17:00" }, // Saturday 4:30–5:00 PM
+  { day: 1, start: "17:30", end: "18:00" }, // Monday 5:30–6:00 PM
 ];
 
 function checkSessionTime() {
@@ -94,7 +94,7 @@ showDateTime();
 setInterval(showDateTime, 1000);
 
 //Udate Number of Pages
-let completed = 5;
+let completed = 0;
 let total = 604;
 
 // Calculate percentage

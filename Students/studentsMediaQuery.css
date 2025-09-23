@@ -40,6 +40,12 @@
   .support h3 {
     font-size: 1.5rem;
   }
+  .support p {
+    font-size: 1.2rem;
+  }
+  .fees-details {
+    font-size: 1.1rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -91,9 +97,31 @@
   .support h3 {
     font-size: 1.5rem;
   }
+
+  .support p {
+    font-size: 1.2rem;
+  }
   .logout {
     left: 6.5rem;
     z-index: 2;
     font-size: 0.8rem;
+  }
+
+  table {
+    font-size: 1.5rem;
+  }
+
+  .calender {
+    font-size: 1.3rem;
+  }
+
+  .fees {
+    margin: auto;
+    max-width: 90%;
+  }
+
+  .fees-details {
+    flex-direction: column;
+    font-size: 1.1rem;
   }
 }
