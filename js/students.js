@@ -6,13 +6,13 @@ const students = {
   "dumstsamiya@gmail.com": "Students/Fatima.html",
   "aminamuhammad3013@gmail.com": "Students/Amina.html",
   "bashirtoffa30@gmail.com": "Students/Bashir.html",
-  "layyatusalisu4949@gmail.com": "Students/Layytu.html",
+  "layyatusalisu4949@gmail.com": "Students/Layyatu.html",
   "khaadijaabdullah@gmail.com": "Students/Khadija.html",
   "fadilakashim01@gmail.com": "Students/Fadila.html",
   "nifu2005@gmail.com": "Students/Hanifa.html",
   "faizaismailzoaka@gmail.com": "Students/Faiza.html",
   "3013378@gmail.com": "Students/Aisha.html",
-  "teemahb1964@gmail.com": "Students/Kashim.html",
+  "teemahb1964@gmail.com/Nabila": "Students-Nabila.html",
   "abduriruwai@yahoo.com": "Students/Abdu.html",
 };
 
@@ -28,14 +28,14 @@ function login(event) {
     "dumstsamiya@gmail.com": "Students/Fatima.html",
     "aminamuhammad3013@gmail.com": "Students/Amina.html",
     "bashirtoffa30@gmail.com": "Students/Bashir.html",
-    "layyatusalisu4949@gmail.com": "Students/Layytu.html",
+    "layyatusalisu4949@gmail.com": "Students/Layyatu.html",
     "khaadijaabdullah@gmail.com": "Students/Khadija.html",
     "fadilakashim01@gmail.com": "Students/Fadila.hmtl",
     "nifu2005@gmail.com": "Students/Hanifa.html",
     "faizaismailzoaka@gmail.com": "Students/Faiza.html",
     "3013378@gmail.com": "Students/Aisha.html",
     "abduriruwai@yahoo.com": "Students/Abdu.html",
-    "teemahb1964@gmail.com": "Students/Kashim.html",
+    "teemahb1964@gmail.com-Nabila": "Students/Nabila.html",
   };
 
   if (students[email]) {

@@ -33,6 +33,13 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  .logout {
+    left: 27rem;
+  }
+
+  .support h3 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -73,12 +80,20 @@
 
   .main-info {
     grid-template-columns: auto;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: auto;
   }
 
   .support {
     grid-column: span 2;
     min-width: 100%;
-    padding-top: 0;
+    gap: 30px;
+  }
+  .support h3 {
+    font-size: 1.5rem;
+  }
+  .logout {
+    left: 6.5rem;
+    z-index: 2;
+    font-size: 0.8rem;
   }
 }
