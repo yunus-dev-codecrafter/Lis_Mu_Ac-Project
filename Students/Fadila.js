@@ -16,13 +16,10 @@ closeBtn.addEventListener("click", () => {
 
 const joinBtn = document.getElementById("joinBtn");
 
-// allowed sessions: Sat–Wed, 4:00–6:00 PM
+// define allowed sessions: day (0=Sunday, 1=Monday,...,6=Saturday), start, end
 const sessions = [
-  { day: 6, start: "16:00", end: "18:00" }, // Saturday
-  { day: 0, start: "16:00", end: "18:00" }, // Sunday
-  { day: 1, start: "16:00", end: "18:00" }, // Monday
-  { day: 2, start: "16:00", end: "18:00" }, // Tuesday
-  { day: 3, start: "16:00", end: "18:00" }, // Wednesday
+  { day: 4, start: "15:30", end: "16:30" },
+  { day: 5, start: "14:15", end: "15:15" },
 ];
 
 function checkSessionTime() {
@@ -35,6 +32,7 @@ function checkSessionTime() {
 
   let active = false;
 
+  // loop through sessions and check if one matches current time
   for (const session of sessions) {
     if (
       currentDay === session.day &&
@@ -47,7 +45,7 @@ function checkSessionTime() {
   }
 
   if (active) {
-    joinBtn.classList.add("active"); // add active class
+    joinBtn.classList.add("active");
     joinBtn.disabled = false;
     joinBtn.textContent = "Join Class";
   } else {
@@ -57,7 +55,7 @@ function checkSessionTime() {
   }
 }
 
-// run check immediately + every 30s
+// check immediately and then every 30 seconds
 checkSessionTime();
 setInterval(checkSessionTime, 30000);
 
@@ -96,7 +94,7 @@ showDateTime();
 setInterval(showDateTime, 1000);
 
 //Udate Number of Pages
-let completed = 2;
+let completed = 0;
 let total = 604;
 
 // Calculate percentage

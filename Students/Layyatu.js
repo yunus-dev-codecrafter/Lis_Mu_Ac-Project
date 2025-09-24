@@ -19,7 +19,7 @@ const joinBtn = document.getElementById("joinBtn");
 // define allowed sessions: day (0=Sunday, 1=Monday,...,6=Saturday), start, end
 const sessions = [
   { day: 6, start: "10:00", end: "10:30" },
-  { day: 3, start: "09:00", end: "09:30" },
+  { day: 3, start: "14:40", end: "15:10" },
 ];
 
 function checkSessionTime() {
