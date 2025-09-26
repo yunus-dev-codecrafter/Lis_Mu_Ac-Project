@@ -72,14 +72,19 @@ const calendar = [
   },
 ];
 
-// Get today’s date
-const today = new Date();
+// helper to remove hours/minutes/seconds from dates
+function normalize(date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
+
+// Get today’s normalized date
+const today = normalize(new Date());
 
 // Find the week that matches today
 let currentActivity = "No activity scheduled today.";
 calendar.forEach((week) => {
-  const start = new Date(week.start);
-  const end = new Date(week.end);
+  const start = normalize(new Date(week.start));
+  const end = normalize(new Date(week.end));
   if (today >= start && today <= end) {
     currentActivity = week.activity;
   }
