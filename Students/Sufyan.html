@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sufyan Abdulaziz</title>
+    <link rel="stylesheet" href="students.css" />
+    <link rel="stylesheet" href="studentsMediaQuery.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <div class="name-logo">
+        <img
+          src="Lisanun Mubeen Academy Login Page (1).png"
+          alt=""
+          class="logo"
+        />
+        <h1>
+          Lisanun Mubeen <br />
+          Academy
+        </h1>
+      </div>
+      <div id="dateTime" class="time"></div>
+    </div>
+    <div class="welcome-name">
+      <div>
+        <h2>Welcome,</h2>
+        <p class="name">Sufyan Abdulaziz</p>
+      </div>
+      <div class="hamburger">
+        <i class="bi bi-list"></i> <i class="bi bi-x-lg hide"></i>
+      </div>
+    </div>
+    <div class="logout hidden">
+      <a href="../index.html">Log out</a>
+      <a href="">Results</a>
+      <a href="">Certificates</a>
+      <a href="/Students/contribute.html">Support the Academy</a>
+    </div>
+    <div id="academic-activity" class="calender"></div>
+    <main class="main-info">
+      <div class="progress-card">
+        <div class="progress-card-icon">
+          <h3>Your Progress</h3>
+
+          <div class="progress-circle" id="circle">
+            <span id="percent">0%</span>
+          </div>
+
+          <p class="completed">
+            <strong id="completed">0</strong> out of <strong>604</strong> Pages
+            completed
+          </p>
+        </div>
+        <div class="schedule">
+          <h3>Class Schedule</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Not Specified</td>
+                <td>Not Specified</td>
+              </tr>
+              <tr>
+                <td>Not Specified</td>
+                <td>Not Specified</td>
+              </tr>
+            </tbody>
+          </table>
+          <button class="joinClass-btn" id="joinBtn" disabled>
+            Join Class
+          </button>
+        </div>
+      </div>
+      <div class="support">
+        <h3>Support the Growth of Lisanun Mubeen Academy</h3>
+        <p>
+          Every contribution is Sadaqah Jariyah - ongoing reward insha Allah.
+        </p>
+        <a
+          href="https://wa.me/2348029979040?text=Assalamu%20alaikum%20i%20would%20like%20to%20contribute%20to%20the%20growth%20of%20this%20Academy%20Fi-Sabilillah."
+          target="_blank"
+          ><button>Contribute Now</button>
+        </a>
+        🤍
+      </div>
+      <div class="fees">
+        <h3>Fees</h3>
+        <div class="fees-details">
+          <h5>
+            1st Term: N2,000 (Paid) <br />
+            Discount N3,500
+          </h5>
+          <h5>2nd Term: N5,500 (Unpaid)</h5>
+          <h5>3rd Term: N5,500 (Unpaid)</h5>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="Sufyan.js"></script>
+  <script src="academic.js"></script>
+</html>
