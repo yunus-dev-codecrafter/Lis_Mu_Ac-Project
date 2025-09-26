@@ -250,3 +250,8 @@ table {
   color: white;
   font-weight: 400;
 }
+
+.fees-discount {
+  font-family: monospace;
+  font-size: 1rem;
+}
