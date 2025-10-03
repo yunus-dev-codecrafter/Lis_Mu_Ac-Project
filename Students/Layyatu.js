@@ -94,7 +94,7 @@ showDateTime();
 setInterval(showDateTime, 1000);
 
 //Udate Number of Pages
-let completed = 5;
+let completed = 3;
 let total = 604;
 
 // Calculate percentage
