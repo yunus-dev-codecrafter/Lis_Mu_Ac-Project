@@ -17,6 +17,7 @@ const students = {
   "abduriruwai@yahoo.com": "Students/Abdu.html",
   "hafsatlawalsalihu@gmail.com": "Students/Hafsat.html",
   "sufyanabdulaziz85@gmail.com": "Students/Sufyan.html",
+  "abduriruwai@yahoo.com": "Students/Abdullahi.html",
 };
 
 function login(event) {
@@ -37,7 +38,7 @@ function login(event) {
     "nifu2005@gmail.com": "Students/Hanifa.html",
     "faizaismailzoaka@gmail.com": "Students/Faiza.html",
     "3013378@gmail.com": "Students/Aisha.html",
-    "abduriruwai@yahoo.com": "Students/Abdu.html",
+    "abduriruwai@yahoo.com": "Students/Abdullahi.html",
     "teemahb1964@gmail.com-Nabila": "Students/Nabila.html",
     "teemahb1964@gmail.com-Abubakar": "Students/Abubakar.html",
     "hafsatlawalsalihu@gmail.com": "Students/Hafsat.html",
