@@ -63,12 +63,12 @@ const calendar = [
   {
     start: "2025-11-29",
     end: "2025-12-05",
-    activity: "Week 14: Examination & Result Compilation/Vacation",
+    activity: "Week 14: Examination",
   },
   {
     start: "2025-12-06",
     end: "2025-12-12",
-    activity: "Week 15: Examination & Result Compilation/Vacation",
+    activity: "Week 15: Examination",
   },
 ];
 
