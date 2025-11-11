@@ -93,7 +93,7 @@ calendar.forEach((week) => {
 // Display in dashboard
 document.getElementById("academic-activity").textContent = currentActivity;
 
-let fee = alert(
+alert(
   `📢 Important Reminder — First Term Closing & Exam Notice
 
 Dear Student,
@@ -107,4 +107,3 @@ For payment, please contact your Ustadh.
 
 Barakallahu feekum.`
 );
-document.write(alert);
