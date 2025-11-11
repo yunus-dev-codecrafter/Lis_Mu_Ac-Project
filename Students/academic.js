@@ -92,3 +92,19 @@ calendar.forEach((week) => {
 
 // Display in dashboard
 document.getElementById("academic-activity").textContent = currentActivity;
+
+let fee = alert(
+  `📢 Important Reminder — First Term Closing & Exam Notice
+
+Dear Student,
+
+Exams are approaching soon. After the holiday we will enter the Second Term, in shaa' Allah.
+
+Payment window is now open for those ready. Pay anytime from now until the end of the First-Term holiday.
+
+Thank you for choosing Lisanun Mubeen Academy.
+For payment, please contact your Ustadh.
+
+Barakallahu feekum.`
+);
+document.write(alert);
